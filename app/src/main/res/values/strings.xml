@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Perhitungan KWH</string>
+    <string name="action_help">Bantuan</string>
+    <string name="action_about">Tentang</string>
+    <string name="judul">Perancangan Aplikasi Estimasi Waktu Pemakaian Listrik Elektrik Berbasis Android</string>
+    <string name="dev">Developer</string>
+    <string name="dev_info">Ridwan Arip \n 201343500097</string>
+    <string name="bantuan">1. Isikan kuota KWH yang dimilik.\n2. Pilih total item yang akan dihitung.\n3. Isikan Watt perangkat beserta waktu pakai (menit).\n4. Klik tombol Hitung untuk menampilkan hasil.</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ridwan.perhitungankwh.HasilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#795548"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="ITEM"
+                android:textColor="#f4f4f4" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#795548"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="HASIL"
+                android:textColor="#f4f4f4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#795548"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Kuota KWH"
+            android:textColor="#f4f4f4" />
+
+        <TextView
+            android:id="@+id/textKuota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#EFEBE9"
+            android:gravity="center"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#795548"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Total Pemakaian per-Hari"
+            android:textColor="#f4f4f4" />
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#EFEBE9"
+            android:gravity="center"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#795548"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Kesimpulan"
+            android:textColor="#f4f4f4" />
+
+        <TextView
+            android:id="@+id/textKesimpulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFEBE9"
+            android:gravity="center"
+            android:padding="4dp" />
+    </LinearLayout>
+
+</ScrollView>

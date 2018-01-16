@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ridwan.perhitungankwh.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Kuota KWH"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editKuota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="KWH"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Jumlah Item"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pemakaian"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Waktu"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</ScrollView>
