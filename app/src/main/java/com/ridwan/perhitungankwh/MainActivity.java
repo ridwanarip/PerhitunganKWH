@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 double hasil = 0.0;
                 listHasil.clear();
                 for (int x=0; x<i; x++) {
-                    hasil = (Double.parseDouble(kwhArray.get(x).getText().toString()) / 1000) + (Double.parseDouble(jamArray.get(x).getText().toString()) / 60);
+                    hasil = (Double.parseDouble(kwhArray.get(x).getText().toString()) / 1000) * (Double.parseDouble(jamArray.get(x).getText().toString()) / 60);
                     listHasil.add(x,String.valueOf(hasil));
                 }
 
